@@ -1,4 +1,4 @@
-namespace TOUR_MANAGERMENT
+namespace TOUR_MANAGERMENT.View
 {
     internal static class Program
     {
@@ -10,11 +10,11 @@ namespace TOUR_MANAGERMENT
         {
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
-          
+
             ApplicationConfiguration.Initialize();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run();
+            Application.Run(new Login());
         }
     }
 }
