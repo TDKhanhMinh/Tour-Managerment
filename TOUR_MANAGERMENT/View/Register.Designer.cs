@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             username_input = new TextBox();
-            pwd_input = new TextBox();
+            email_inp = new TextBox();
             address_input = new TextBox();
-            email_input = new TextBox();
+            pwd_inp = new TextBox();
             phone_input = new TextBox();
             label1 = new Label();
             label2 = new Label();
@@ -51,29 +51,29 @@
             username_input.TabIndex = 0;
             username_input.TextChanged += textBox1_TextChanged_1;
             // 
-            // pwd_input
+            // email_inp
             // 
-            pwd_input.Font = new Font("Segoe UI", 10F);
-            pwd_input.Location = new Point(182, 359);
-            pwd_input.Name = "pwd_input";
-            pwd_input.Size = new Size(336, 30);
-            pwd_input.TabIndex = 1;
+            email_inp.Font = new Font("Segoe UI", 10F);
+            email_inp.Location = new Point(182, 359);
+            email_inp.Name = "email_inp";
+            email_inp.Size = new Size(336, 30);
+            email_inp.TabIndex = 1;
             // 
             // address_input
             // 
             address_input.Font = new Font("Segoe UI", 10F);
-            address_input.Location = new Point(182, 534);
+            address_input.Location = new Point(182, 518);
             address_input.Name = "address_input";
             address_input.Size = new Size(336, 30);
             address_input.TabIndex = 3;
             // 
-            // email_input
+            // pwd_inp
             // 
-            email_input.Font = new Font("Segoe UI", 10F);
-            email_input.Location = new Point(182, 411);
-            email_input.Name = "email_input";
-            email_input.Size = new Size(336, 30);
-            email_input.TabIndex = 4;
+            pwd_inp.Font = new Font("Segoe UI", 10F);
+            pwd_inp.Location = new Point(182, 411);
+            pwd_inp.Name = "pwd_inp";
+            pwd_inp.Size = new Size(336, 30);
+            pwd_inp.TabIndex = 4;
             // 
             // phone_input
             // 
@@ -99,7 +99,7 @@
             label2.AutoSize = true;
             label2.BackColor = Color.Azure;
             label2.Font = new Font("Segoe UI", 12F);
-            label2.Location = new Point(40, 532);
+            label2.Location = new Point(40, 518);
             label2.Name = "label2";
             label2.Size = new Size(82, 28);
             label2.TabIndex = 7;
@@ -121,7 +121,7 @@
             label4.AutoSize = true;
             label4.BackColor = Color.Azure;
             label4.Font = new Font("Segoe UI", 12F);
-            label4.Location = new Point(40, 413);
+            label4.Location = new Point(40, 361);
             label4.Name = "label4";
             label4.Size = new Size(59, 28);
             label4.TabIndex = 9;
@@ -132,7 +132,7 @@
             label5.AutoSize = true;
             label5.BackColor = Color.Azure;
             label5.Font = new Font("Segoe UI", 12F);
-            label5.Location = new Point(40, 361);
+            label5.Location = new Point(40, 411);
             label5.Name = "label5";
             label5.Size = new Size(93, 28);
             label5.TabIndex = 10;
@@ -178,9 +178,9 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(phone_input);
-            Controls.Add(email_input);
+            Controls.Add(pwd_inp);
             Controls.Add(address_input);
-            Controls.Add(pwd_input);
+            Controls.Add(email_inp);
             Controls.Add(username_input);
             Name = "Register";
             Text = "Register";
@@ -191,9 +191,9 @@
         #endregion
 
         private TextBox username_input;
-        private TextBox pwd_input;
+        private TextBox email_inp;
         private TextBox address_input;
-        private TextBox email_input;
+        private TextBox pwd_inp;
         private TextBox phone_input;
         private Label label1;
         private Label label2;

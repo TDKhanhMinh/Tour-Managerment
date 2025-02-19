@@ -3,88 +3,52 @@
   "WorkspaceRootPath": "C:\\Net_Project\\TOUR_MANAGERMENT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|c:\\net_project\\tour_managerment\\tour_managerment\\view\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|solutionrelative:tour_managerment\\view\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|c:\\net_project\\tour_managerment\\tour_managerment\\view\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|solutionrelative:tour_managerment\\view\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|c:\\net_project\\tour_managerment\\tour_managerment\\view\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|solutionrelative:tour_managerment\\view\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|c:\\net_project\\tour_managerment\\tour_managerment\\view\\register.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|solutionrelative:tour_managerment\\view\\register.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|c:\\net_project\\tour_managerment\\tour_managerment\\dto-data_transfer_object\\user_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|solutionrelative:tour_managerment\\dto-data_transfer_object\\user_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|c:\\net_project\\tour_managerment\\tour_managerment\\dto-data_transfer_object\\tour_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|solutionrelative:tour_managerment\\dto-data_transfer_object\\tour_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|c:\\net_project\\tour_managerment\\tour_managerment\\dto-data_transfer_object\\schedule_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|solutionrelative:tour_managerment\\dto-data_transfer_object\\schedule_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|c:\\net_project\\tour_managerment\\tour_managerment\\dto-data_transfer_object\\report_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|solutionrelative:tour_managerment\\dto-data_transfer_object\\report_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|c:\\net_project\\tour_managerment\\tour_managerment\\dto-data_transfer_object\\booking_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|solutionrelative:tour_managerment\\dto-data_transfer_object\\booking_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|c:\\net_project\\tour_managerment\\tour_managerment\\dal-data_access_layer\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|solutionrelative:tour_managerment\\dal-data_access_layer\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|c:\\net_project\\tour_managerment\\tour_managerment\\dal-data_access_layer\\tourdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|solutionrelative:tour_managerment\\dal-data_access_layer\\tourdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|c:\\net_project\\tour_managerment\\tour_managerment\\dal-data_access_layer\\scheduledal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|solutionrelative:tour_managerment\\dal-data_access_layer\\scheduledal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|c:\\net_project\\tour_managerment\\tour_managerment\\dal-data_access_layer\\reportdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|solutionrelative:tour_managerment\\dal-data_access_layer\\reportdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|c:\\net_project\\tour_managerment\\tour_managerment\\dal-data_access_layer\\bookingdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|solutionrelative:tour_managerment\\dal-data_access_layer\\bookingdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|c:\\net_project\\tour_managerment\\tour_managerment\\bll-business_logic_layer\\userbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|solutionrelative:tour_managerment\\bll-business_logic_layer\\userbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|c:\\net_project\\tour_managerment\\tour_managerment\\bll-business_logic_layer\\tourbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|solutionrelative:tour_managerment\\bll-business_logic_layer\\tourbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|c:\\net_project\\tour_managerment\\tour_managerment\\view\\adminhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|solutionrelative:tour_managerment\\view\\adminhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|c:\\net_project\\tour_managerment\\tour_managerment\\bll-business_logic_layer\\schedulebll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|solutionrelative:tour_managerment\\bll-business_logic_layer\\schedulebll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|c:\\net_project\\tour_managerment\\tour_managerment\\dto-data_transfer_object\\user_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|solutionrelative:tour_managerment\\dto-data_transfer_object\\user_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|c:\\net_project\\tour_managerment\\tour_managerment\\bll-business_logic_layer\\reportbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|solutionrelative:tour_managerment\\bll-business_logic_layer\\reportbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|c:\\net_project\\tour_managerment\\tour_managerment\\bll-business_logic_layer\\bookingbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|solutionrelative:tour_managerment\\bll-business_logic_layer\\bookingbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|C:\\Net_Project\\TOUR_MANAGERMENT\\tour_managerment\\view\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|c:\\net_project\\tour_managerment\\tour_managerment\\view\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|solutionrelative:tour_managerment\\view\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|c:\\net_project\\tour_managerment\\tour_managerment\\service\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|solutionrelative:tour_managerment\\service\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|c:\\net_project\\tour_managerment\\tour_managerment\\view\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|solutionrelative:tour_managerment\\view\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|c:\\net_project\\tour_managerment\\tour_managerment\\bll-business_logic_layer\\customerbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|solutionrelative:tour_managerment\\bll-business_logic_layer\\customerbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|c:\\net_project\\tour_managerment\\tour_managerment\\dal-data_access_layer\\customerdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|solutionrelative:tour_managerment\\dal-data_access_layer\\customerdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|c:\\net_project\\tour_managerment\\tour_managerment\\dto-data_transfer_object\\customer_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|solutionrelative:tour_managerment\\dto-data_transfer_object\\customer_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|C:\\Net_Project\\TOUR_MANAGERMENT\\tour_managerment\\view\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|solutionrelative:tour_managerment\\view\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|c:\\net_project\\tour_managerment\\tour_managerment\\view\\register.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|solutionrelative:tour_managerment\\view\\register.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -94,84 +58,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Login.Designer.cs",
-              "DocumentMoniker": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\View\\Login.Designer.cs",
-              "RelativeDocumentMoniker": "TOUR_MANAGERMENT\\View\\Login.Designer.cs",
-              "ToolTip": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\View\\Login.Designer.cs",
-              "RelativeToolTip": "TOUR_MANAGERMENT\\View\\Login.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAZAAAA",
+              "DocumentIndex": 0,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\View\\Login.cs",
+              "RelativeDocumentMoniker": "TOUR_MANAGERMENT\\View\\Login.cs",
+              "ToolTip": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\View\\Login.cs",
+              "RelativeToolTip": "TOUR_MANAGERMENT\\View\\Login.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwBkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T08:51:07.436Z",
+              "WhenOpened": "2025-02-19T08:37:11.822Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
+              "Title": "UserBLL.cs",
+              "DocumentMoniker": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\BLL-Business_Logic_Layer\\UserBLL.cs",
+              "RelativeDocumentMoniker": "TOUR_MANAGERMENT\\BLL-Business_Logic_Layer\\UserBLL.cs",
+              "ToolTip": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\BLL-Business_Logic_Layer\\UserBLL.cs",
+              "RelativeToolTip": "TOUR_MANAGERMENT\\BLL-Business_Logic_Layer\\UserBLL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T08:48:44.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "UserDAL.cs",
               "DocumentMoniker": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\DAL-Data_Access_Layer\\UserDAL.cs",
               "RelativeDocumentMoniker": "TOUR_MANAGERMENT\\DAL-Data_Access_Layer\\UserDAL.cs",
               "ToolTip": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\DAL-Data_Access_Layer\\UserDAL.cs",
               "RelativeToolTip": "TOUR_MANAGERMENT\\DAL-Data_Access_Layer\\UserDAL.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T08:26:39.662Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Booking_DTO.cs",
-              "DocumentMoniker": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\DTO-Data_Transfer_Object\\Booking_DTO.cs",
-              "RelativeDocumentMoniker": "TOUR_MANAGERMENT\\DTO-Data_Transfer_Object\\Booking_DTO.cs",
-              "ToolTip": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\DTO-Data_Transfer_Object\\Booking_DTO.cs",
-              "RelativeToolTip": "TOUR_MANAGERMENT\\DTO-Data_Transfer_Object\\Booking_DTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T08:07:20.269Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Report_DTO.cs",
-              "DocumentMoniker": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\DTO-Data_Transfer_Object\\Report_DTO.cs",
-              "RelativeDocumentMoniker": "TOUR_MANAGERMENT\\DTO-Data_Transfer_Object\\Report_DTO.cs",
-              "ToolTip": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\DTO-Data_Transfer_Object\\Report_DTO.cs",
-              "RelativeToolTip": "TOUR_MANAGERMENT\\DTO-Data_Transfer_Object\\Report_DTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T08:08:32.345Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Schedule_DTO.cs",
-              "DocumentMoniker": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\DTO-Data_Transfer_Object\\Schedule_DTO.cs",
-              "RelativeDocumentMoniker": "TOUR_MANAGERMENT\\DTO-Data_Transfer_Object\\Schedule_DTO.cs",
-              "ToolTip": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\DTO-Data_Transfer_Object\\Schedule_DTO.cs",
-              "RelativeToolTip": "TOUR_MANAGERMENT\\DTO-Data_Transfer_Object\\Schedule_DTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T08:05:54.137Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Tour_DTO.cs",
-              "DocumentMoniker": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\DTO-Data_Transfer_Object\\Tour_DTO.cs",
-              "RelativeDocumentMoniker": "TOUR_MANAGERMENT\\DTO-Data_Transfer_Object\\Tour_DTO.cs",
-              "ToolTip": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\DTO-Data_Transfer_Object\\Tour_DTO.cs",
-              "RelativeToolTip": "TOUR_MANAGERMENT\\DTO-Data_Transfer_Object\\Tour_DTO.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T08:03:38.245Z",
+              "WhenOpened": "2025-02-19T08:48:17.114Z",
               "EditorCaption": ""
             },
             {
@@ -182,189 +107,107 @@
               "RelativeDocumentMoniker": "TOUR_MANAGERMENT\\DTO-Data_Transfer_Object\\User_DTO.cs",
               "ToolTip": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\DTO-Data_Transfer_Object\\User_DTO.cs",
               "RelativeToolTip": "TOUR_MANAGERMENT\\DTO-Data_Transfer_Object\\User_DTO.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAAwAgAAAAKAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T07:46:30.93Z",
+              "WhenOpened": "2025-02-19T08:46:56.021Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\View\\Login.cs",
-              "RelativeDocumentMoniker": "TOUR_MANAGERMENT\\View\\Login.cs",
-              "ToolTip": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\View\\Login.cs",
-              "RelativeToolTip": "TOUR_MANAGERMENT\\View\\Login.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAAZAAAA",
+              "DocumentIndex": 6,
+              "Title": "Login.Designer.cs",
+              "DocumentMoniker": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\View\\Login.Designer.cs",
+              "RelativeDocumentMoniker": "TOUR_MANAGERMENT\\View\\Login.Designer.cs",
+              "ToolTip": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\View\\Login.Designer.cs",
+              "RelativeToolTip": "TOUR_MANAGERMENT\\View\\Login.Designer.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwA4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T16:01:18.943Z",
+              "WhenOpened": "2025-02-19T08:12:44.343Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Register.cs",
-              "DocumentMoniker": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\View\\Register.cs",
-              "RelativeDocumentMoniker": "TOUR_MANAGERMENT\\View\\Register.cs",
-              "ToolTip": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\View\\Register.cs",
-              "RelativeToolTip": "TOUR_MANAGERMENT\\View\\Register.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T15:48:40.397Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "TourDAL.cs",
-              "DocumentMoniker": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\DAL-Data_Access_Layer\\TourDAL.cs",
-              "RelativeDocumentMoniker": "TOUR_MANAGERMENT\\DAL-Data_Access_Layer\\TourDAL.cs",
-              "ToolTip": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\DAL-Data_Access_Layer\\TourDAL.cs",
-              "RelativeToolTip": "TOUR_MANAGERMENT\\DAL-Data_Access_Layer\\TourDAL.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T08:27:46.649Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Register.Designer.cs",
-              "DocumentMoniker": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\View\\Register.Designer.cs",
-              "RelativeDocumentMoniker": "TOUR_MANAGERMENT\\View\\Register.Designer.cs",
-              "ToolTip": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\View\\Register.Designer.cs",
-              "RelativeToolTip": "TOUR_MANAGERMENT\\View\\Register.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T15:49:42.138Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ScheduleDAL.cs",
-              "DocumentMoniker": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\DAL-Data_Access_Layer\\ScheduleDAL.cs",
-              "RelativeDocumentMoniker": "TOUR_MANAGERMENT\\DAL-Data_Access_Layer\\ScheduleDAL.cs",
-              "ToolTip": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\DAL-Data_Access_Layer\\ScheduleDAL.cs",
-              "RelativeToolTip": "TOUR_MANAGERMENT\\DAL-Data_Access_Layer\\ScheduleDAL.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T08:27:29.884Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ReportDAL.cs",
-              "DocumentMoniker": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\DAL-Data_Access_Layer\\ReportDAL.cs",
-              "RelativeDocumentMoniker": "TOUR_MANAGERMENT\\DAL-Data_Access_Layer\\ReportDAL.cs",
-              "ToolTip": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\DAL-Data_Access_Layer\\ReportDAL.cs",
-              "RelativeToolTip": "TOUR_MANAGERMENT\\DAL-Data_Access_Layer\\ReportDAL.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T08:27:19.763Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "BookingDAL.cs",
-              "DocumentMoniker": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\DAL-Data_Access_Layer\\BookingDAL.cs",
-              "RelativeDocumentMoniker": "TOUR_MANAGERMENT\\DAL-Data_Access_Layer\\BookingDAL.cs",
-              "ToolTip": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\DAL-Data_Access_Layer\\BookingDAL.cs",
-              "RelativeToolTip": "TOUR_MANAGERMENT\\DAL-Data_Access_Layer\\BookingDAL.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T08:26:57.492Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UserBLL.cs",
-              "DocumentMoniker": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\BLL-Business_Logic_Layer\\UserBLL.cs",
-              "RelativeDocumentMoniker": "TOUR_MANAGERMENT\\BLL-Business_Logic_Layer\\UserBLL.cs",
-              "ToolTip": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\BLL-Business_Logic_Layer\\UserBLL.cs",
-              "RelativeToolTip": "TOUR_MANAGERMENT\\BLL-Business_Logic_Layer\\UserBLL.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T08:28:48.917Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "TourBLL.cs",
-              "DocumentMoniker": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\BLL-Business_Logic_Layer\\TourBLL.cs",
-              "RelativeDocumentMoniker": "TOUR_MANAGERMENT\\BLL-Business_Logic_Layer\\TourBLL.cs",
-              "ToolTip": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\BLL-Business_Logic_Layer\\TourBLL.cs",
-              "RelativeToolTip": "TOUR_MANAGERMENT\\BLL-Business_Logic_Layer\\TourBLL.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T08:28:41.66Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ScheduleBLL.cs",
-              "DocumentMoniker": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\BLL-Business_Logic_Layer\\ScheduleBLL.cs",
-              "RelativeDocumentMoniker": "TOUR_MANAGERMENT\\BLL-Business_Logic_Layer\\ScheduleBLL.cs",
-              "ToolTip": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\BLL-Business_Logic_Layer\\ScheduleBLL.cs",
-              "RelativeToolTip": "TOUR_MANAGERMENT\\BLL-Business_Logic_Layer\\ScheduleBLL.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T08:28:29.877Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ReportBLL.cs",
-              "DocumentMoniker": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\BLL-Business_Logic_Layer\\ReportBLL.cs",
-              "RelativeDocumentMoniker": "TOUR_MANAGERMENT\\BLL-Business_Logic_Layer\\ReportBLL.cs",
-              "ToolTip": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\BLL-Business_Logic_Layer\\ReportBLL.cs",
-              "RelativeToolTip": "TOUR_MANAGERMENT\\BLL-Business_Logic_Layer\\ReportBLL.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T08:28:17.493Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "BookingBLL.cs",
-              "DocumentMoniker": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\BLL-Business_Logic_Layer\\BookingBLL.cs",
-              "RelativeDocumentMoniker": "TOUR_MANAGERMENT\\BLL-Business_Logic_Layer\\BookingBLL.cs",
-              "ToolTip": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\BLL-Business_Logic_Layer\\BookingBLL.cs",
-              "RelativeToolTip": "TOUR_MANAGERMENT\\BLL-Business_Logic_Layer\\BookingBLL.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T08:28:05.728Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 5,
               "Title": "Login.cs [Design]",
               "DocumentMoniker": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\View\\Login.cs",
               "RelativeDocumentMoniker": "TOUR_MANAGERMENT\\View\\Login.cs",
               "ToolTip": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\View\\Login.cs [Design]",
               "RelativeToolTip": "TOUR_MANAGERMENT\\View\\Login.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T07:53:39.499Z"
+              "WhenOpened": "2025-02-19T08:12:51.593Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Connection.cs",
-              "DocumentMoniker": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\Service\\Connection.cs",
-              "RelativeDocumentMoniker": "TOUR_MANAGERMENT\\Service\\Connection.cs",
-              "ToolTip": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\Service\\Connection.cs",
-              "RelativeToolTip": "TOUR_MANAGERMENT\\Service\\Connection.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "AdminHome.cs",
+              "DocumentMoniker": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\View\\AdminHome.cs",
+              "RelativeDocumentMoniker": "TOUR_MANAGERMENT\\View\\AdminHome.cs",
+              "ToolTip": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\View\\AdminHome.cs",
+              "RelativeToolTip": "TOUR_MANAGERMENT\\View\\AdminHome.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T16:22:05.783Z"
+              "WhenOpened": "2025-02-19T09:28:33.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CustomerBLL.cs",
+              "DocumentMoniker": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\BLL-Business_Logic_Layer\\CustomerBLL.cs",
+              "RelativeDocumentMoniker": "TOUR_MANAGERMENT\\BLL-Business_Logic_Layer\\CustomerBLL.cs",
+              "ToolTip": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\BLL-Business_Logic_Layer\\CustomerBLL.cs",
+              "RelativeToolTip": "TOUR_MANAGERMENT\\BLL-Business_Logic_Layer\\CustomerBLL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T08:48:41.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CustomerDAL.cs",
+              "DocumentMoniker": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\DAL-Data_Access_Layer\\CustomerDAL.cs",
+              "RelativeDocumentMoniker": "TOUR_MANAGERMENT\\DAL-Data_Access_Layer\\CustomerDAL.cs",
+              "ToolTip": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\DAL-Data_Access_Layer\\CustomerDAL.cs",
+              "RelativeToolTip": "TOUR_MANAGERMENT\\DAL-Data_Access_Layer\\CustomerDAL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T08:48:29.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Customer_DTO.cs",
+              "DocumentMoniker": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\DTO-Data_Transfer_Object\\Customer_DTO.cs",
+              "RelativeDocumentMoniker": "TOUR_MANAGERMENT\\DTO-Data_Transfer_Object\\Customer_DTO.cs",
+              "ToolTip": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\DTO-Data_Transfer_Object\\Customer_DTO.cs",
+              "RelativeToolTip": "TOUR_MANAGERMENT\\DTO-Data_Transfer_Object\\Customer_DTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T08:40:41.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Register.cs [Design]",
+              "DocumentMoniker": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\View\\Register.cs",
+              "RelativeDocumentMoniker": "TOUR_MANAGERMENT\\View\\Register.cs",
+              "ToolTip": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\View\\Register.cs [Design]",
+              "RelativeToolTip": "TOUR_MANAGERMENT\\View\\Register.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T08:13:47.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Register.Designer.cs",
+              "DocumentMoniker": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\View\\Register.Designer.cs",
+              "RelativeDocumentMoniker": "TOUR_MANAGERMENT\\View\\Register.Designer.cs",
+              "ToolTip": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\View\\Register.Designer.cs",
+              "RelativeToolTip": "TOUR_MANAGERMENT\\View\\Register.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T08:13:43.839Z"
             }
           ]
         }

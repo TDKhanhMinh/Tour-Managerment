@@ -32,9 +32,8 @@
             password_Input = new TextBox();
             label1 = new Label();
             label2 = new Label();
-            button1 = new Button();
+            loginBtn = new Button();
             forgot_password = new LinkLabel();
-            linkLabel1 = new LinkLabel();
             SuspendLayout();
             // 
             // username_Input
@@ -63,9 +62,9 @@
             label1.Font = new Font("Segoe UI Emoji", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.Location = new Point(27, 224);
             label1.Name = "label1";
-            label1.Size = new Size(117, 31);
+            label1.Size = new Size(113, 31);
             label1.TabIndex = 2;
-            label1.Text = "Username";
+            label1.Text = "Tài khoản";
             // 
             // label2
             // 
@@ -74,21 +73,23 @@
             label2.Font = new Font("Segoe UI Emoji", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label2.Location = new Point(27, 288);
             label2.Name = "label2";
-            label2.Size = new Size(111, 31);
+            label2.Size = new Size(112, 31);
             label2.TabIndex = 3;
-            label2.Text = "Password";
+            label2.Text = "Mật khẩu";
             label2.Click += label2_Click;
             // 
-            // button1
+            // loginBtn
             // 
-            button1.Font = new Font("Segoe UI", 11F);
-            button1.Location = new Point(351, 370);
-            button1.Name = "button1";
-            button1.Size = new Size(118, 34);
-            button1.TabIndex = 4;
-            button1.Text = "Login";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            loginBtn.BackColor = Color.Cyan;
+            loginBtn.Font = new Font("Segoe UI", 11F);
+            loginBtn.ForeColor = Color.Black;
+            loginBtn.Location = new Point(337, 369);
+            loginBtn.Name = "loginBtn";
+            loginBtn.Size = new Size(132, 44);
+            loginBtn.TabIndex = 4;
+            loginBtn.Text = "Đăng nhập";
+            loginBtn.UseVisualStyleBackColor = false;
+            loginBtn.Click += button1_Click;
             // 
             // forgot_password
             // 
@@ -96,25 +97,11 @@
             forgot_password.DisabledLinkColor = Color.AliceBlue;
             forgot_password.Location = new Point(170, 335);
             forgot_password.Name = "forgot_password";
-            forgot_password.Size = new Size(131, 20);
+            forgot_password.Size = new Size(109, 20);
             forgot_password.TabIndex = 5;
             forgot_password.TabStop = true;
-            forgot_password.Text = "Forgot password ?";
+            forgot_password.Text = "Quên mật khẩu";
             forgot_password.LinkClicked += linkLabel1_LinkClicked;
-            // 
-            // linkLabel1
-            // 
-            linkLabel1.AutoSize = true;
-            linkLabel1.BackColor = Color.Lavender;
-            linkLabel1.DisabledLinkColor = Color.AliceBlue;
-            linkLabel1.Font = new Font("Segoe UI", 10F);
-            linkLabel1.Location = new Point(170, 437);
-            linkLabel1.Name = "linkLabel1";
-            linkLabel1.Size = new Size(281, 23);
-            linkLabel1.TabIndex = 6;
-            linkLabel1.TabStop = true;
-            linkLabel1.Text = "Don't have account ? Register here.";
-            linkLabel1.LinkClicked += linkLabel1_LinkClicked_1;
             // 
             // Login
             // 
@@ -123,9 +110,8 @@
             BackgroundImage = Properties.Resources.istockphoto_1400224853_612x612;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1095, 500);
-            Controls.Add(linkLabel1);
             Controls.Add(forgot_password);
-            Controls.Add(button1);
+            Controls.Add(loginBtn);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(password_Input);
@@ -142,8 +128,7 @@
         private TextBox password_Input;
         private Label label1;
         private Label label2;
-        private Button button1;
+        private Button loginBtn;
         private LinkLabel forgot_password;
-        private LinkLabel linkLabel1;
     }
 }

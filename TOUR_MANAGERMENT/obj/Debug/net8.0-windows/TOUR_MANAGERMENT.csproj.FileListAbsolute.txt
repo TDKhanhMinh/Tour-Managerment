@@ -1,5 +1,9 @@
 C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\bin\Debug\net8.0-windows\TOUR_MANAGERMENT.exe
+C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\bin\Debug\net8.0-windows\TOUR_MANAGERMENT.dll.config
+C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\bin\Debug\net8.0-windows\TOUR_MANAGERMENT.deps.json
+C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\bin\Debug\net8.0-windows\TOUR_MANAGERMENT.runtimeconfig.json
 C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\bin\Debug\net8.0-windows\TOUR_MANAGERMENT.dll
+C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\bin\Debug\net8.0-windows\TOUR_MANAGERMENT.pdb
 C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\bin\Debug\net8.0-windows\Azure.Core.dll
 C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\bin\Debug\net8.0-windows\Azure.Identity.dll
 C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
@@ -66,9 +70,7 @@ C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\obj\Debug\net8.0-windows\TOUR_M
 C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\obj\Debug\net8.0-windows\TOUR_MANAGERMENT.dll
 C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\obj\Debug\net8.0-windows\refint\TOUR_MANAGERMENT.dll
 C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\obj\Debug\net8.0-windows\TOUR_MANAGERMENT.pdb
-C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\bin\Debug\net8.0-windows\TOUR_MANAGERMENT.dll.config
-C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\bin\Debug\net8.0-windows\TOUR_MANAGERMENT.deps.json
-C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\bin\Debug\net8.0-windows\TOUR_MANAGERMENT.runtimeconfig.json
-C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\bin\Debug\net8.0-windows\TOUR_MANAGERMENT.pdb
 C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\obj\Debug\net8.0-windows\TOUR_MANAGERMENT.genruntimeconfig.cache
 C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\obj\Debug\net8.0-windows\ref\TOUR_MANAGERMENT.dll
+C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\obj\Debug\net8.0-windows\TOUR_MANAGERMENT.View.AdminHome.resources
+C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\obj\Debug\net8.0-windows\TOUR_MANAGERMENT.View.StaffHome.resources

@@ -15,13 +15,18 @@ CREATE TABLE Report (
   reportdate DATE NOT NULL,
   description TEXT NOT NULL
 );
+CREATE TABLE Users(
+userId INT IDENTITY(1,1) PRIMARY KEY,
+username NVARCHAR(255) NOT NULL,
+password NVARCHAR(255) NOT NULL,
+role NVARCHAR(50) NOT NULL,
+);
 
-CREATE TABLE Users (
-  userId INT IDENTITY(1,1) PRIMARY KEY,
-  username NVARCHAR(255) NOT NULL,
-  password NVARCHAR(255) NOT NULL,
-  role NVARCHAR(50) NOT NULL,
-  phone NVARCHAR(20) NOT NULL,
+CREATE TABLE Customer (
+  customerId INT IDENTITY(1,1) PRIMARY KEY,
+  firstname NVARCHAR(255) NOT NULL,
+	lastname NVARCHAR(255) NOT NULL,
+	phone NVARCHAR(20) NOT NULL,
   email NVARCHAR(255) NOT NULL,
   address NVARCHAR(MAX) NOT NULL,
   bookingId INT NOT NULL,
@@ -47,3 +52,10 @@ CREATE TABLE Schedule (
   tourId INT NOT NULL,
   FOREIGN KEY (tourId) REFERENCES Tour(tourId)
 );
+
+INSERT INTO Users (username, password, role) VALUES ('admin1', 'admin', 'ADMIN');
+INSERT INTO Users (username, password, role) VALUES ('nhanvien1', '123', 'NV');
+INSERT INTO Users (username, password, role) VALUES ('nhanvien2', '123', 'NV');
+INSERT INTO Users (username, password, role) VALUES ('nhanvien3', '123', 'NV');
+
+select * from Users
