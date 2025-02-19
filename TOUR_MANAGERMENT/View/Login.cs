@@ -61,7 +61,7 @@ namespace TOUR_MANAGERMENT.View
                 }
                 else
                 {
-                    MessageBox.Show("Sai tài khoản hoặc mật khẩu");
+                    MessageBox.Show("Sai tài khoản hoặc mật khẩu. Vui lòng thử lại");
                 }
 
             }
