@@ -46,18 +46,9 @@ namespace TOUR_MANAGERMENT.View
                 if (acc != null)
                 {
                     string chuc_vu = UserBLL.getRole(username);
-                 
-                    if (chuc_vu == "ADMIN")
-                    {
-                        AdminHome adminHome = new AdminHome();
-                        adminHome.ShowDialog();
-                    }
-                   
-                    else
-                    {
-                        StaffHome f = new StaffHome();
-                        f.ShowDialog();
-                    }
+
+                    Home adminHome = new Home();
+                    adminHome.ShowDialog();
                 }
                 else
                 {

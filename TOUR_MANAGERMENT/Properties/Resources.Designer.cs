@@ -73,6 +73,26 @@ namespace TOUR_MANAGERMENT.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _6f6c1538b050072b002dbc06bedaaf90 {
+            get {
+                object obj = ResourceManager.GetObject("6f6c1538b050072b002dbc06bedaaf90", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap c085ad076c442c8191e6b7f48ef59aad {
+            get {
+                object obj = ResourceManager.GetObject("c085ad076c442c8191e6b7f48ef59aad", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap istockphoto_1400224853_612x612 {
             get {
                 object obj = ResourceManager.GetObject("istockphoto-1400224853-612x612", resourceCulture);

@@ -72,5 +72,6 @@ C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\obj\Debug\net8.0-windows\refint
 C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\obj\Debug\net8.0-windows\TOUR_MANAGERMENT.pdb
 C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\obj\Debug\net8.0-windows\TOUR_MANAGERMENT.genruntimeconfig.cache
 C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\obj\Debug\net8.0-windows\ref\TOUR_MANAGERMENT.dll
-C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\obj\Debug\net8.0-windows\TOUR_MANAGERMENT.View.AdminHome.resources
 C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\obj\Debug\net8.0-windows\TOUR_MANAGERMENT.View.StaffHome.resources
+C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\obj\Debug\net8.0-windows\TOUR_MANAGERMENT.View.Home.resources
+C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\obj\Debug\net8.0-windows\TOUR_MANAGERMENT.View.CustomerManagerment.resources
