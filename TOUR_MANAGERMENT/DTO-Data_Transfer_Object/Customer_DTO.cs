@@ -19,7 +19,7 @@ namespace TOUR_MANAGERMENT.DTO_Data_Transfer_Object
         public string Address { get; set; }
         public int BookingId { get; set; }
 
-        public Customer_DTO( string firstname,string lastname, string phone, string email, string address, int bookingId)
+        public Customer_DTO( string firstname,string lastname, string phone, string email, string address)
         {
             
             Firstname = firstname;
@@ -27,7 +27,7 @@ namespace TOUR_MANAGERMENT.DTO_Data_Transfer_Object
             Phone = phone;
             Email = email;
             Address = address;
-            BookingId = bookingId;
+           
         }
 
     

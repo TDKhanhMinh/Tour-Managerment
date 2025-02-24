@@ -75,3 +75,4 @@ C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\obj\Debug\net8.0-windows\ref\TO
 C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\obj\Debug\net8.0-windows\TOUR_MANAGERMENT.View.StaffHome.resources
 C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\obj\Debug\net8.0-windows\TOUR_MANAGERMENT.View.Home.resources
 C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\obj\Debug\net8.0-windows\TOUR_MANAGERMENT.View.CustomerManagerment.resources
+C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\bin\Debug\net8.0-windows\Microsoft.Office.Interop.Excel.dll
