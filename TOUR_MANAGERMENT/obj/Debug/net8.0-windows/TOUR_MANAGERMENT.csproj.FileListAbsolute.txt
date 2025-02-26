@@ -76,3 +76,11 @@ C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\obj\Debug\net8.0-windows\TOUR_M
 C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\obj\Debug\net8.0-windows\TOUR_MANAGERMENT.View.Home.resources
 C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\obj\Debug\net8.0-windows\TOUR_MANAGERMENT.View.CustomerManagerment.resources
 C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\bin\Debug\net8.0-windows\Microsoft.Office.Interop.Excel.dll
+C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\bin\Debug\net8.0-windows\ClosedXML.dll
+C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\bin\Debug\net8.0-windows\ClosedXML.Parser.dll
+C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\bin\Debug\net8.0-windows\DocumentFormat.OpenXml.dll
+C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\bin\Debug\net8.0-windows\DocumentFormat.OpenXml.Framework.dll
+C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\bin\Debug\net8.0-windows\ExcelNumberFormat.dll
+C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\bin\Debug\net8.0-windows\RBush.dll
+C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\bin\Debug\net8.0-windows\SixLabors.Fonts.dll
+C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\bin\Debug\net8.0-windows\System.IO.Packaging.dll

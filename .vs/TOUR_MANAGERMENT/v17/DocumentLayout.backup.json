@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Net_Project\\TOUR_MANAGERMENT\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|c:\\net_project\\tour_managerment\\tour_managerment\\service\\exportexcel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|solutionrelative:tour_managerment\\service\\exportexcel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|c:\\net_project\\tour_managerment\\tour_managerment\\service\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|solutionrelative:tour_managerment\\service\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|C:\\Net_Project\\TOUR_MANAGERMENT\\tour_managerment\\view\\customermanagerment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|solutionrelative:tour_managerment\\view\\customermanagerment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|c:\\net_project\\tour_managerment\\tour_managerment\\dto-data_transfer_object\\customer_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|solutionrelative:tour_managerment\\dto-data_transfer_object\\customer_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|c:\\net_project\\tour_managerment\\tour_managerment\\bll-business_logic_layer\\customerbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|solutionrelative:tour_managerment\\bll-business_logic_layer\\customerbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|c:\\net_project\\tour_managerment\\tour_managerment\\dal-data_access_layer\\customerdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD2AF6C3-5A93-45C3-8E25-A07D00B1E9F9}|TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj|solutionrelative:tour_managerment\\dal-data_access_layer\\customerdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Connection.cs",
+              "DocumentMoniker": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\Service\\Connection.cs",
+              "RelativeDocumentMoniker": "TOUR_MANAGERMENT\\Service\\Connection.cs",
+              "ToolTip": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\Service\\Connection.cs",
+              "RelativeToolTip": "TOUR_MANAGERMENT\\Service\\Connection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T23:55:17.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerManagerment.cs [Design]",
+              "DocumentMoniker": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\View\\CustomerManagerment.cs",
+              "RelativeDocumentMoniker": "TOUR_MANAGERMENT\\View\\CustomerManagerment.cs",
+              "ToolTip": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\View\\CustomerManagerment.cs [Design]",
+              "RelativeToolTip": "TOUR_MANAGERMENT\\View\\CustomerManagerment.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T13:59:09.887Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Customer_DTO.cs",
+              "DocumentMoniker": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\DTO-Data_Transfer_Object\\Customer_DTO.cs",
+              "RelativeDocumentMoniker": "TOUR_MANAGERMENT\\DTO-Data_Transfer_Object\\Customer_DTO.cs",
+              "ToolTip": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\DTO-Data_Transfer_Object\\Customer_DTO.cs",
+              "RelativeToolTip": "TOUR_MANAGERMENT\\DTO-Data_Transfer_Object\\Customer_DTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T13:21:53.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomerBLL.cs",
+              "DocumentMoniker": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\BLL-Business_Logic_Layer\\CustomerBLL.cs",
+              "RelativeDocumentMoniker": "TOUR_MANAGERMENT\\BLL-Business_Logic_Layer\\CustomerBLL.cs",
+              "ToolTip": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\BLL-Business_Logic_Layer\\CustomerBLL.cs",
+              "RelativeToolTip": "TOUR_MANAGERMENT\\BLL-Business_Logic_Layer\\CustomerBLL.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAuwC0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T16:09:37.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExportExcel.cs",
+              "DocumentMoniker": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\Service\\ExportExcel.cs",
+              "RelativeDocumentMoniker": "TOUR_MANAGERMENT\\Service\\ExportExcel.cs",
+              "ToolTip": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\Service\\ExportExcel.cs",
+              "RelativeToolTip": "TOUR_MANAGERMENT\\Service\\ExportExcel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T14:12:51.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomerDAL.cs",
+              "DocumentMoniker": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\DAL-Data_Access_Layer\\CustomerDAL.cs",
+              "RelativeDocumentMoniker": "TOUR_MANAGERMENT\\DAL-Data_Access_Layer\\CustomerDAL.cs",
+              "ToolTip": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\DAL-Data_Access_Layer\\CustomerDAL.cs",
+              "RelativeToolTip": "TOUR_MANAGERMENT\\DAL-Data_Access_Layer\\CustomerDAL.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCwAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T16:02:22.987Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
