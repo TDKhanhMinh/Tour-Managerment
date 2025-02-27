@@ -104,7 +104,7 @@
             button1.Name = "button1";
             button1.Size = new Size(188, 45);
             button1.TabIndex = 4;
-            button1.Text = "Quản lý tour";
+            button1.Text = "Quản lý Tour";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click_1;
             // 

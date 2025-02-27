@@ -87,14 +87,24 @@ namespace TOUR_MANAGERMENT.DAL_Data_Access_Layer
             deleteQ.ExecuteNonQuery();
             sqlConnection.Close();
         }
-        public static DataTable findTour(string info)
+        public static DataTable findTour(string type, decimal min, decimal max, string transportation)
         {
             DataTable dt = new DataTable();
             using SqlConnection sqlConnection = Connenction.GetSqlConnection("TourManagerment");
             if (sqlConnection.State == ConnectionState.Closed) { sqlConnection.Open(); }
-            string query = "SELECT * FROM Tour WHERE tourname LIKE @info OR type LIKE @info OR description LIKE @info";
+
+            string query = @"SELECT * FROM Tour " +
+            "WHERE (type = @type OR @type = '') " +
+            "AND (transportation = @transportation OR @transportation = '') " +
+            "AND (price BETWEEN @min AND @max)";
+
+
+
             using SqlCommand cmd = new(query, sqlConnection);
-            cmd.Parameters.AddWithValue("@info", "%" + info + "%");
+            cmd.Parameters.AddWithValue("@type", type);
+            cmd.Parameters.AddWithValue("@min", min);
+            cmd.Parameters.AddWithValue("@max", max);
+            cmd.Parameters.AddWithValue("@transportation", transportation);
             using SqlDataAdapter adapter = new(cmd);
             adapter.Fill(dt);
             return dt;
