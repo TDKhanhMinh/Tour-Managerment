@@ -27,19 +27,19 @@
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
-        {
+            {
             panel1 = new Panel();
+            button2 = new Button();
+            button5 = new Button();
+            button4 = new Button();
+            button3 = new Button();
+            button1 = new Button();
             button_home = new Button();
             pictureBox1 = new PictureBox();
             button_manager_customer = new Button();
             panel2 = new Panel();
             label_top = new Label();
             panel_body = new Panel();
-            button1 = new Button();
-            button3 = new Button();
-            button4 = new Button();
-            button5 = new Button();
-            button2 = new Button();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel2.SuspendLayout();
@@ -61,6 +61,52 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(220, 668);
             panel1.TabIndex = 0;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(12, 349);
+            button2.Name = "button2";
+            button2.Size = new Size(188, 45);
+            button2.TabIndex = 9;
+            button2.Text = "Chức năng 3";
+            button2.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            button5.Location = new Point(12, 546);
+            button5.Name = "button5";
+            button5.Size = new Size(188, 45);
+            button5.TabIndex = 8;
+            button5.Text = "Chức Năng 7";
+            button5.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            button4.Location = new Point(12, 483);
+            button4.Name = "button4";
+            button4.Size = new Size(188, 45);
+            button4.TabIndex = 7;
+            button4.Text = "Chức năng 5";
+            button4.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            button3.Location = new Point(12, 418);
+            button3.Name = "button3";
+            button3.Size = new Size(188, 45);
+            button3.TabIndex = 6;
+            button3.Text = "Chức năng 4";
+            button3.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(12, 287);
+            button1.Name = "button1";
+            button1.Size = new Size(188, 45);
+            button1.TabIndex = 4;
+            button1.Text = "Quản lý tour";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click_1;
             // 
             // button_home
             // 
@@ -124,51 +170,6 @@
             panel_body.TabIndex = 2;
             panel_body.Paint += panel3_Paint;
             // 
-            // button1
-            // 
-            button1.Location = new Point(12, 287);
-            button1.Name = "button1";
-            button1.Size = new Size(188, 45);
-            button1.TabIndex = 4;
-            button1.Text = "Chức năng 1";
-            button1.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            button3.Location = new Point(12, 418);
-            button3.Name = "button3";
-            button3.Size = new Size(188, 45);
-            button3.TabIndex = 6;
-            button3.Text = "Chức năng 4";
-            button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            button4.Location = new Point(12, 483);
-            button4.Name = "button4";
-            button4.Size = new Size(188, 45);
-            button4.TabIndex = 7;
-            button4.Text = "Chức năng 5";
-            button4.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            button5.Location = new Point(12, 546);
-            button5.Name = "button5";
-            button5.Size = new Size(188, 45);
-            button5.TabIndex = 8;
-            button5.Text = "Chức Năng 7";
-            button5.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            button2.Location = new Point(12, 349);
-            button2.Name = "button2";
-            button2.Size = new Size(188, 45);
-            button2.TabIndex = 9;
-            button2.Text = "Chức năng 3";
-            button2.UseVisualStyleBackColor = true;
-            // 
             // Home
             // 
             AutoScaleDimensions = new SizeF(9F, 18F);
@@ -187,7 +188,7 @@
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             ResumeLayout(false);
-        }
+            }
 
         #endregion
 

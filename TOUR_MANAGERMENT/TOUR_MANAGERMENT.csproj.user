@@ -16,5 +16,8 @@
     <Compile Update="View\StaffHome.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="View\Tour.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>
