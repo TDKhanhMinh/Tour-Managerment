@@ -231,12 +231,13 @@
             // 
             // button1_excel
             // 
-            button1_excel.Location = new Point(931, 71);
+            button1_excel.Location = new Point(1118, 53);
             button1_excel.Name = "button1_excel";
             button1_excel.Size = new Size(271, 45);
             button1_excel.TabIndex = 2;
-            button1_excel.Text = "Lưu vào Excel";
+            button1_excel.Text = "Nhập từ Excel";
             button1_excel.UseVisualStyleBackColor = true;
+            button1_excel.Click += btnOpenExcel_Click;
             // 
             // groupBox1
             // 
@@ -259,7 +260,7 @@
             // cbb_filter_transportation
             // 
             cbb_filter_transportation.FormattingEnabled = true;
-            cbb_filter_transportation.Items.AddRange(new object[] { "Xe", "Máy bay" });
+            cbb_filter_transportation.Items.AddRange(new object[] { "Tất cả", "Xe", "Máy bay" });
             cbb_filter_transportation.Location = new Point(746, 61);
             cbb_filter_transportation.Name = "cbb_filter_transportation";
             cbb_filter_transportation.Size = new Size(151, 31);
@@ -278,7 +279,7 @@
             // cbb_filter_price
             // 
             cbb_filter_price.FormattingEnabled = true;
-            cbb_filter_price.Items.AddRange(new object[] { "Dưới 200$", "Từ 200$ đến 400$", "Từ 400$ đến 800$", "Trên 800$" });
+            cbb_filter_price.Items.AddRange(new object[] { "Tất cả", "Dưới 200$", "Từ 200$ đến 400$", "Từ 400$ đến 800$", "Trên 800$" });
             cbb_filter_price.Location = new Point(421, 61);
             cbb_filter_price.Name = "cbb_filter_price";
             cbb_filter_price.Size = new Size(151, 31);
@@ -288,7 +289,7 @@
             // cbb_filter_type
             // 
             cbb_filter_type.FormattingEnabled = true;
-            cbb_filter_type.Items.AddRange(new object[] { "Cao cấp", "Tiêu chuẩn", "Tiết kiệm" });
+            cbb_filter_type.Items.AddRange(new object[] { "Tất cả", "Cao cấp", "Tiêu chuẩn", "Tiết kiệm" });
             cbb_filter_type.Location = new Point(127, 61);
             cbb_filter_type.Name = "cbb_filter_type";
             cbb_filter_type.Size = new Size(151, 31);

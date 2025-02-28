@@ -8,8 +8,10 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ClosedXML.Excel;
 using Microsoft.IdentityModel.Tokens;
 using TOUR_MANAGERMENT.BLL_Business_Logic_Layer;
+using TOUR_MANAGERMENT.Service;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
@@ -23,6 +25,7 @@ namespace TOUR_MANAGERMENT.View
         private string price;
         private String transportation;
         private String description;
+        private DataTable import;
         public Tour()
         {
             InitializeComponent();
@@ -139,9 +142,8 @@ namespace TOUR_MANAGERMENT.View
         private void cbb_filter_type_SelectedIndexChanged(object sender, EventArgs e)
         {
             var (min, max) = GetPriceRange(cbb_filter_price.SelectedIndex);
-
-            string type = cbb_filter_type.SelectedItem?.ToString() ?? "";
-            string transportation = cbb_filter_transportation.SelectedItem?.ToString() ?? "";
+            string type = cbb_filter_type.SelectedItem?.ToString() == "Tất cả" ? "" : (cbb_filter_type.SelectedItem?.ToString()??"");
+            string transportation = cbb_filter_transportation.SelectedItem?.ToString() == "Tất cả" ? "" : (cbb_filter_transportation.SelectedItem?.ToString() ?? "");
             dataGridView1.DataSource =  TourBLL.findTourInfo(type, min, max, transportation);
         }
 
@@ -149,12 +151,26 @@ namespace TOUR_MANAGERMENT.View
         {
             return index switch
             {
-                0 => (0, 200),    
-                1 => (200, 400),  
-                2 => (400, 800), 
-                3 => (800, decimal.MaxValue), 
+                1 => (0, 200),    
+                2 => (200, 400),  
+                3 => (400, 800), 
+                4 => (800, decimal.MaxValue), 
                 _ => (0, decimal.MaxValue),
             };
+        }
+        private void btnOpenExcel_Click(object sender, EventArgs e)
+        {
+            using (OpenFileDialog openFileDialog = new OpenFileDialog { Filter = "Excel Files|*.xlsx" })
+            {
+                if (openFileDialog.ShowDialog() == DialogResult.OK)
+                {
+                    import = ImportExcel.ReadExcel(openFileDialog.FileName);
+                    if (MessageBox.Show("Xác nhận thêm các Tour trong file?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                    {
+                        ImportExcel.importTour(import);
+                    };
+                }
+            }
         }
     }
 }
