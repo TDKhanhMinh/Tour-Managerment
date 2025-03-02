@@ -1,4 +1,4 @@
-create database TourManagerment
+﻿create database TourManagerment
 
 use master
 go
@@ -37,7 +37,7 @@ role NVARCHAR(50) NOT NULL,
 CREATE TABLE Customer (
   customerId INT IDENTITY(1,1) PRIMARY KEY,
   lastname NVARCHAR(255) NOT NULL,
- firstname NVARCHAR(255) NOT NULL,  
+  firstname NVARCHAR(255) NOT NULL,  
   phone NVARCHAR(20) NOT NULL,
   email NVARCHAR(255) NOT NULL unique,
   address NVARCHAR(MAX) NOT NULL,
@@ -47,11 +47,18 @@ CREATE TABLE Customer (
 
 CREATE TABLE Schedule (
   scheduleId INT IDENTITY(1,1) PRIMARY KEY,
+  tourId INT ,
+  bookingId INT ,
   beginday DATE NOT NULL,
-  activity NVARCHAR(MAX) NOT NULL,
   endday_ DATE NOT NULL,
-  tourId INT NOT NULL,
-  FOREIGN KEY (tourId) REFERENCES Tour(tourId)
+  transport NVARCHAR(255) NOT NULL,
+  location NVARCHAR(255) NOT NULL,
+  activity NVARCHAR(MAX) NOT NULL,
+  guidename NVARCHAR(255) NOT NULL,
+  status NVARCHAR(255) NOT NULL,
+  settlement NVARCHAR(255) NOT NULL,
+  FOREIGN KEY (tourId) REFERENCES Tour(tourId),
+  FOREIGN KEY (bookingId) REFERENCES Booking(bookingId)
 );
 
 INSERT INTO Users (username, password, role) VALUES ('admin1', 'admin', 'ADMIN');
@@ -76,4 +83,15 @@ VALUES
 
 
 
-select * from Customer
+
+INSERT INTO Schedule ( beginday, endday_, transport, location, activity, guidename, status, settlement)  
+VALUES  
+( '2025-03-10', '2025-03-11', 'Bus', 'Hà Nội', 'Tham quan Hồ Gươm, phố cổ', 'Nguyễn Văn A', 'Chưa khởi hành', 'Chưa thanh toán'),  
+( '2025-04-05', '2025-04-07', 'Plane', 'Đà Nẵng', 'Tham quan Bà Nà Hills, Cầu Rồng', 'Trần Thị B', 'Đang diễn ra', 'Chưa thanh toán'),  
+('2025-05-15', '2025-05-20', 'Cruise', 'Hạ Long', 'Du thuyền ngắm vịnh Hạ Long', 'Lê Minh C', 'Đã huỷ', 'Chưa thanh toán'),  
+( '2025-06-01', '2025-06-03', 'Train', 'Sapa', 'Leo Fansipan, bản Cát Cát', 'Phạm Văn D', 'Đã hoàn thành', 'Chưa thanh toán'),  
+('2025-07-10', '2025-07-12', 'Car', 'Đà Lạt', 'Thăm vườn hoa Đà Lạt, hồ Tuyền Lâm', 'Bùi Thị E', 'Đã hoàn thành', 'Chưa thanh toán');  
+
+INSERT INTO Schedule ( beginday, endday_, transport, location, activity, guidename, status, settlement)  
+VALUES  ( '2025-03-10', '2025-03-11', 'Bus', 'Hà Nội', 'Tham quan Hồ Gươm, phố cổ', 'Nguyễn Văn A', 'Chua khoi hanh', 'Chua thanh toan')
+select * from Schedule

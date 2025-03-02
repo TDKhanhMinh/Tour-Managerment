@@ -29,7 +29,7 @@
         private void InitializeComponent()
             {
             panel1 = new Panel();
-            button2 = new Button();
+            button_schedule = new Button();
             button5 = new Button();
             button4 = new Button();
             button3 = new Button();
@@ -48,7 +48,7 @@
             // panel1
             // 
             panel1.BackColor = Color.Aqua;
-            panel1.Controls.Add(button2);
+            panel1.Controls.Add(button_schedule);
             panel1.Controls.Add(button5);
             panel1.Controls.Add(button4);
             panel1.Controls.Add(button3);
@@ -62,14 +62,15 @@
             panel1.Size = new Size(220, 668);
             panel1.TabIndex = 0;
             // 
-            // button2
+            // button_schedule
             // 
-            button2.Location = new Point(12, 349);
-            button2.Name = "button2";
-            button2.Size = new Size(188, 45);
-            button2.TabIndex = 9;
-            button2.Text = "Chức năng 3";
-            button2.UseVisualStyleBackColor = true;
+            button_schedule.Location = new Point(12, 349);
+            button_schedule.Name = "button_schedule";
+            button_schedule.Size = new Size(188, 45);
+            button_schedule.TabIndex = 9;
+            button_schedule.Text = "Quản Lý Lịch Trình";
+            button_schedule.UseVisualStyleBackColor = true;
+            button_schedule.Click += button2_Click;
             // 
             // button5
             // 
@@ -104,7 +105,7 @@
             button1.Name = "button1";
             button1.Size = new Size(188, 45);
             button1.TabIndex = 4;
-            button1.Text = "Quản lý tour";
+            button1.Text = "Quản lý Tour";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click_1;
             // 
@@ -199,7 +200,7 @@
         private PictureBox pictureBox1;
         private Panel panel_body;
         private Button button_home;
-        private Button button2;
+        private Button button_schedule;
         private Button button5;
         private Button button4;
         private Button button3;

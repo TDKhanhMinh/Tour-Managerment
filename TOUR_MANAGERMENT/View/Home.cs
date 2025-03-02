@@ -66,5 +66,11 @@ namespace TOUR_MANAGERMENT.View
             OpenChidForm(new Tour());
             label_top.Text = button_manager_customer.Text;
             }
+
+        private void button2_Click(object sender, EventArgs e)
+            {
+            OpenChidForm(new Schedule());
+            label_top.Text = button_schedule.Text;
+            }
         }
     }

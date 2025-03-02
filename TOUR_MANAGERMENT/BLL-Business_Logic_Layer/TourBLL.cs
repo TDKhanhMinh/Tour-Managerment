@@ -30,10 +30,10 @@ namespace TOUR_MANAGERMENT.BLL_Business_Logic_Layer
             }
         }
 
-        public static DataTable findTourInfo(string info)
+        public static DataTable findTourInfo(string type, decimal min, decimal max, string transportation)
         {
             DataTable dt = new DataTable();
-            try { dt = TourDAL.findTour(info); }
+            try { dt = TourDAL.findTour(type, min, max, transportation); }
             catch (Exception ex) { MessageBox.Show("Lỗi " + ex.Message); }
             return dt;
         }
