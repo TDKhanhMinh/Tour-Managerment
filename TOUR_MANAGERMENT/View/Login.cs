@@ -15,6 +15,7 @@ namespace TOUR_MANAGERMENT.View
 {
     public partial class Login : Form
     {
+        
         public Login()
         {
             InitializeComponent();
@@ -45,11 +46,15 @@ namespace TOUR_MANAGERMENT.View
                 User_DTO? acc = UserBLL.Login(username, password);
                 if (acc != null)
                 {
+                    GlobalData.CurrentUser=UserBLL.getUser(username, password);
                     string chuc_vu = UserBLL.getRole(username);
-
+                    this.Hide();
                     Home adminHome = new Home();
                     adminHome.ShowDialog();
-                }
+                    this.Close();
+
+
+                    }
                 else
                 {
                     MessageBox.Show("Sai tài khoản hoặc mật khẩu. Vui lòng thử lại");

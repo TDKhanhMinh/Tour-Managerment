@@ -27,11 +27,17 @@ CREATE TABLE Report (
   reportdate DATE NOT NULL,
   description TEXT NOT NULL
 );
+
 CREATE TABLE Users(
-userId INT IDENTITY(1,1) PRIMARY KEY,
-username NVARCHAR(255) NOT NULL,
-password NVARCHAR(255) NOT NULL,
-role NVARCHAR(50) NOT NULL,
+	userId INT IDENTITY(1,1) PRIMARY KEY,
+	username NVARCHAR(255) NOT NULL,
+	password NVARCHAR(255) NOT NULL,
+	role NVARCHAR(50) NOT NULL,
+	fullName NVARCHAR(100) ,
+	age INT,
+    gender NVARCHAR(10) ,
+    phone NVARCHAR(20),
+    address NVARCHAR(255),
 );
 
 CREATE TABLE Customer (
@@ -60,11 +66,16 @@ CREATE TABLE Schedule (
   FOREIGN KEY (tourId) REFERENCES Tour(tourId),
   FOREIGN KEY (bookingId) REFERENCES Booking(bookingId)
 );
+INSERT INTO Users (username, password, role, fullName, age, gender, phone, address)
+VALUES 
+    ('admin', 'admin', 'ADMIN', 'Nguyễn Văn A', 35, 'Male', '0123456789', 'Hà Nội'),
+    ('employee', 'nv123', 'NV', 'Trần Thị B', 28, 'Female', '0987654321', 'TP. Hồ Chí Minh'),
+	('nv001', 'pass001', 'NV', 'Lê Văn C', 30, 'Male', '0912345678', 'Đà Nẵng'),
+    ('nv002', 'pass002', 'NV', 'Phạm Thị D', 25, 'Female', '0923456789', 'Hải Phòng'),
+    ('nv003', 'pass003', 'NV', 'Hoàng Văn E', 27, 'Male', '0934567890', 'Cần Thơ'),
+    ('nv004', 'pass004', 'NV', 'Đặng Thị F', 29, 'Female', '0945678901', 'Nha Trang'),
+    ('nv005', 'pass005', 'NV', 'Bùi Văn G', 32, 'Male', '0956789012', 'Huế');;
 
-INSERT INTO Users (username, password, role) VALUES ('admin1', 'admin', 'ADMIN');
-INSERT INTO Users (username, password, role) VALUES ('nhanvien1', '123', 'NV');
-INSERT INTO Users (username, password, role) VALUES ('nhanvien2', '123', 'NV');
-INSERT INTO Users (username, password, role) VALUES ('nhanvien3', '123', 'NV');
 
 
 
@@ -94,4 +105,4 @@ VALUES
 
 INSERT INTO Schedule ( beginday, endday_, transport, location, activity, guidename, status, settlement)  
 VALUES  ( '2025-03-10', '2025-03-11', 'Bus', 'Hà Nội', 'Tham quan Hồ Gươm, phố cổ', 'Nguyễn Văn A', 'Chua khoi hanh', 'Chua thanh toan')
-select * from Schedule
+select * from Users

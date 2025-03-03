@@ -30,7 +30,7 @@
             {
             panel1 = new Panel();
             button_schedule = new Button();
-            button5 = new Button();
+            button_staff = new Button();
             button4 = new Button();
             button3 = new Button();
             button1 = new Button();
@@ -38,8 +38,10 @@
             pictureBox1 = new PictureBox();
             button_manager_customer = new Button();
             panel2 = new Panel();
+            iconButton_name = new FontAwesome.Sharp.IconButton();
             label_top = new Label();
             panel_body = new Panel();
+            button_logout = new Button();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel2.SuspendLayout();
@@ -48,8 +50,9 @@
             // panel1
             // 
             panel1.BackColor = Color.Aqua;
+            panel1.Controls.Add(button_logout);
             panel1.Controls.Add(button_schedule);
-            panel1.Controls.Add(button5);
+            panel1.Controls.Add(button_staff);
             panel1.Controls.Add(button4);
             panel1.Controls.Add(button3);
             panel1.Controls.Add(button1);
@@ -72,14 +75,15 @@
             button_schedule.UseVisualStyleBackColor = true;
             button_schedule.Click += button2_Click;
             // 
-            // button5
+            // button_staff
             // 
-            button5.Location = new Point(12, 546);
-            button5.Name = "button5";
-            button5.Size = new Size(188, 45);
-            button5.TabIndex = 8;
-            button5.Text = "Chức Năng 7";
-            button5.UseVisualStyleBackColor = true;
+            button_staff.Location = new Point(12, 546);
+            button_staff.Name = "button_staff";
+            button_staff.Size = new Size(188, 45);
+            button_staff.TabIndex = 8;
+            button_staff.Text = "Quản lý nhân viên";
+            button_staff.UseVisualStyleBackColor = true;
+            button_staff.Click += button5_Click;
             // 
             // button4
             // 
@@ -143,33 +147,61 @@
             // panel2
             // 
             panel2.BackColor = Color.Aqua;
+            panel2.Controls.Add(iconButton_name);
             panel2.Controls.Add(label_top);
             panel2.Dock = DockStyle.Top;
+            panel2.Font = new Font("Arial", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             panel2.Location = new Point(220, 0);
             panel2.Name = "panel2";
             panel2.Size = new Size(1223, 112);
             panel2.TabIndex = 1;
             panel2.Paint += panel2_Paint;
             // 
+            // iconButton_name
+            // 
+            iconButton_name.ForeColor = SystemColors.ActiveCaptionText;
+            iconButton_name.IconChar = FontAwesome.Sharp.IconChar.UserCircle;
+            iconButton_name.IconColor = Color.Black;
+            iconButton_name.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            iconButton_name.IconSize = 32;
+            iconButton_name.ImageAlign = ContentAlignment.MiddleLeft;
+            iconButton_name.Location = new Point(6, 35);
+            iconButton_name.Name = "iconButton_name";
+            iconButton_name.Size = new Size(369, 35);
+            iconButton_name.TabIndex = 2;
+            iconButton_name.UseVisualStyleBackColor = true;
+            // 
             // label_top
             // 
             label_top.AutoSize = true;
             label_top.BackColor = Color.Cyan;
             label_top.Font = new Font("Arial", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label_top.Location = new Point(511, 36);
+            label_top.Location = new Point(686, 35);
             label_top.Name = "label_top";
             label_top.Size = new Size(184, 40);
             label_top.TabIndex = 0;
             label_top.Text = "Trang Chủ";
+            label_top.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // panel_body
             // 
+            panel_body.BorderStyle = BorderStyle.Fixed3D;
             panel_body.Dock = DockStyle.Fill;
             panel_body.Location = new Point(220, 112);
             panel_body.Name = "panel_body";
             panel_body.Size = new Size(1223, 556);
             panel_body.TabIndex = 2;
             panel_body.Paint += panel3_Paint;
+            // 
+            // button_logout
+            // 
+            button_logout.Location = new Point(12, 611);
+            button_logout.Name = "button_logout";
+            button_logout.Size = new Size(188, 45);
+            button_logout.TabIndex = 10;
+            button_logout.Text = "Đăng xuất";
+            button_logout.UseVisualStyleBackColor = true;
+            button_logout.Click += button_logout_Click;
             // 
             // Home
             // 
@@ -201,9 +233,11 @@
         private Panel panel_body;
         private Button button_home;
         private Button button_schedule;
-        private Button button5;
+        private Button button_staff;
         private Button button4;
         private Button button3;
         private Button button1;
-    }
+        private FontAwesome.Sharp.IconButton iconButton_name;
+        private Button button_logout;
+        }
 }

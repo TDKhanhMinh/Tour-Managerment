@@ -48,6 +48,7 @@
             textBox_firstname = new TextBox();
             groupBox3 = new GroupBox();
             dataGridView1 = new DataGridView();
+            sqlCommand1 = new Microsoft.Data.SqlClient.SqlCommand();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             groupBox3.SuspendLayout();
@@ -270,6 +271,11 @@
             dataGridView1.TabIndex = 1;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
+            // sqlCommand1
+            // 
+            sqlCommand1.CommandTimeout = 30;
+            sqlCommand1.EnableOptimizedParameterBinding = false;
+            // 
             // CustomerManagerment
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -312,5 +318,6 @@
         private DataGridView dataGridView1;
         private Label label6;
         private Button button1_excel;
+        private Microsoft.Data.SqlClient.SqlCommand sqlCommand1;
         }
 }

@@ -1,22 +1,27 @@
+﻿using TOUR_MANAGERMENT.DTO_Data_Transfer_Object;
+using System;
+using System.Windows.Forms;
+
 namespace TOUR_MANAGERMENT.View
-{
-    internal static class Program
     {
+    public static class GlobalData
+        {
+        public static User_DTO CurrentUser { get; set; } 
+        }
+
+    public static class Program
+        {
         /// <summary>
         ///  The main entry point for the application.
         /// </summary>
         [STAThread]
         static void Main()
-        {
-            // To customize application configuration such as set high DPI settings or default font,
-            // see https://aka.ms/applicationconfiguration.
-
+            {
+            // Cấu hình ứng dụng
             ApplicationConfiguration.Initialize();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new Login());
-            Application.Run(new Home());
-
+            Application.Run(new Login());
+            }
         }
     }
-}

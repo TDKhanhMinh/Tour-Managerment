@@ -49,16 +49,26 @@ namespace TOUR_MANAGERMENT.View
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
             {
-
             if (e.RowIndex >= 0)
                 {
                 DataGridViewRow row = dataGridView1.Rows[e.RowIndex];
-                textBox_firstname.Text = row.Cells["firstname"].Value.ToString();
-                textBox_lastname.Text = row.Cells["lastname"].Value.ToString();
-                textBox_phone.Text = row.Cells["phone"].Value.ToString();
-                textBox_email.Text = row.Cells["email"].Value.ToString();
-                textBox_address.Text = row.Cells["address"].Value.ToString();
-                customerId = (int)row.Cells["customerId"].Value;
+                if (row.Cells["customerId"].Value != null && row.Cells["customerId"].Value != DBNull.Value)
+                    {
+                    textBox_firstname.Text = row.Cells["firstname"].Value?.ToString() ?? "";
+                    textBox_lastname.Text = row.Cells["lastname"].Value?.ToString() ?? "";
+                    textBox_phone.Text = row.Cells["phone"].Value?.ToString() ?? "";
+                    textBox_email.Text = row.Cells["email"].Value?.ToString() ?? "";
+                    textBox_address.Text = row.Cells["address"].Value?.ToString() ?? "";
+                    customerId = (int)row.Cells["customerId"].Value;
+                    }
+                else
+                    {
+                    textBox_firstname.Text = "";
+                    textBox_lastname.Text = "";
+                    textBox_phone.Text = "";
+                    textBox_email.Text = "";
+                    textBox_address.Text = "";
+                    }
                 }
             }
 

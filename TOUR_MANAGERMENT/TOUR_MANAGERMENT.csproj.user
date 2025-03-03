@@ -10,13 +10,10 @@
     <Compile Update="View\Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="View\Register.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="View\Schedule.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="View\StaffHome.cs">
+    <Compile Update="View\Staff.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="View\Tour.cs">

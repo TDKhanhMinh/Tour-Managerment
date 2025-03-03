@@ -59,7 +59,6 @@ C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\bin\Debug\net8.0-windows\runtim
 C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\obj\Debug\net8.0-windows\TOUR_MANAGERMENT.csproj.AssemblyReference.cache
 C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\obj\Debug\net8.0-windows\TOUR_MANAGERMENT.Properties.Resources.resources
 C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\obj\Debug\net8.0-windows\TOUR_MANAGERMENT.View.Login.resources
-C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\obj\Debug\net8.0-windows\TOUR_MANAGERMENT.View.Register.resources
 C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\obj\Debug\net8.0-windows\TOUR_MANAGERMENT.csproj.GenerateResource.cache
 C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\obj\Debug\net8.0-windows\TOUR_MANAGERMENT.GeneratedMSBuildEditorConfig.editorconfig
 C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\obj\Debug\net8.0-windows\TOUR_MANAGERMENT.AssemblyInfoInputs.cache
@@ -72,7 +71,6 @@ C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\obj\Debug\net8.0-windows\refint
 C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\obj\Debug\net8.0-windows\TOUR_MANAGERMENT.pdb
 C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\obj\Debug\net8.0-windows\TOUR_MANAGERMENT.genruntimeconfig.cache
 C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\obj\Debug\net8.0-windows\ref\TOUR_MANAGERMENT.dll
-C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\obj\Debug\net8.0-windows\TOUR_MANAGERMENT.View.StaffHome.resources
 C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\obj\Debug\net8.0-windows\TOUR_MANAGERMENT.View.Home.resources
 C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\obj\Debug\net8.0-windows\TOUR_MANAGERMENT.View.CustomerManagerment.resources
 C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\bin\Debug\net8.0-windows\ClosedXML.dll
@@ -171,3 +169,5 @@ E:\Study\2024-2025\KYII\Dot_Net\Mid_Term\Tour-Managerment\TOUR_MANAGERMENT\obj\D
 E:\Study\2024-2025\KYII\Dot_Net\Mid_Term\Tour-Managerment\TOUR_MANAGERMENT\obj\Debug\net8.0-windows\TOUR_MANAGERMENT.genruntimeconfig.cache
 E:\Study\2024-2025\KYII\Dot_Net\Mid_Term\Tour-Managerment\TOUR_MANAGERMENT\obj\Debug\net8.0-windows\ref\TOUR_MANAGERMENT.dll
 C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\obj\Debug\net8.0-windows\TOUR_MANAGERMENT.View.Schedule.resources
+C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\obj\Debug\net8.0-windows\TOUR_MANAGERMENT.View.Staff.resources
+C:\Net_Project\TOUR_MANAGERMENT\TOUR_MANAGERMENT\bin\Debug\net8.0-windows\FontAwesome.Sharp.dll

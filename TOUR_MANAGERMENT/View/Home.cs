@@ -47,7 +47,7 @@ namespace TOUR_MANAGERMENT.View
 
         private void Home_Load(object sender, EventArgs e)
             {
-
+            iconButton_name.Text = GlobalData.CurrentUser.fullname.ToString() + " - " + GlobalData.CurrentUser.Role.ToString();
             }
 
         private void panel3_Paint(object sender, PaintEventArgs e)
@@ -59,18 +59,54 @@ namespace TOUR_MANAGERMENT.View
             {
             if (currForm != null) { currForm.Close(); }
             label_top.Text = button_home.Text;
+
             }
 
         private void button1_Click_1(object sender, EventArgs e)
             {
-            OpenChidForm(new Tour());
-            label_top.Text = button_manager_customer.Text;
+            if (GlobalData.CurrentUser.Role.Equals("ADMIN"))
+                {
+                OpenChidForm(new Tour());
+                label_top.Text = button_manager_customer.Text;
+                }
+            else
+                {
+                MessageBox.Show("Bạn không có quyền truy cập chức năng này", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+
             }
 
         private void button2_Click(object sender, EventArgs e)
             {
             OpenChidForm(new Schedule());
             label_top.Text = button_schedule.Text;
+            }
+
+        private void button5_Click(object sender, EventArgs e)
+            {
+            if (GlobalData.CurrentUser.Role.Equals("ADMIN"))
+                {
+                OpenChidForm(new Staff());
+                label_top.Text = button_staff.Text;
+                }
+            else
+                {
+                MessageBox.Show("Bạn không có quyền truy cập chức năng này", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+            }
+
+        private void label_name_Click(object sender, EventArgs e)
+            {
+
+            }
+
+        private void button_logout_Click(object sender, EventArgs e)
+            {
+            this.Hide();
+            MessageBox.Show("Bạn đã đăng xuất thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            Login login = new Login();
+            login.ShowDialog();
+            this.Close();
             }
         }
     }
