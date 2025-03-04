@@ -82,7 +82,7 @@ namespace TOUR_MANAGERMENT.View
             address = textBox_address.Text;
             if (firstName.IsNullOrEmpty() || lastName.IsNullOrEmpty() || phone.IsNullOrEmpty() || email.IsNullOrEmpty() || address.IsNullOrEmpty())
                 {
-                MessageBox.Show("Hãy điền đầy đủ thông tin khách hàng");
+                MessageBox.Show("Hãy điền đầy đủ thông tin khách hàng", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
             else
                 {
@@ -94,19 +94,19 @@ namespace TOUR_MANAGERMENT.View
                             {
                             CustomerBLL.addCustomer(new DTO_Data_Transfer_Object.Customer_DTO(firstName, lastName, phone, email, address));
                             CustomerManagerment_Load(sender, e);
-                            MessageBox.Show("Thêm khách hàng thành công.");
+                            MessageBox.Show("Thêm khách hàng thành công.","Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                             }
                         }
                     else
                         {
-                        MessageBox.Show("Số điện thoại khách hàng này đã tồn tại. Vui lòng dùng số điện thoại khác.");
+                        MessageBox.Show("Số điện thoại khách hàng này đã tồn tại. Vui lòng dùng số điện thoại khác.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                         CustomerManagerment_Load(sender, e);
                         }
                     }
 
                 else
                     {
-                    MessageBox.Show("Email khách hàng này đã tồn tại. Vui lòng dùng email khác.");
+                    MessageBox.Show("Email khách hàng này đã tồn tại. Vui lòng dùng email khác.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     CustomerManagerment_Load(sender, e);
                     }
                 }
@@ -148,7 +148,7 @@ namespace TOUR_MANAGERMENT.View
                 {
                 CustomerBLL.updateCustomer(new DTO_Data_Transfer_Object.Customer_DTO(firstName, lastName, phone, email, address), customerId);
                 CustomerManagerment_Load(sender, e);
-                MessageBox.Show("Chỉnh sửa thông tin khách hàng thành công.");
+                MessageBox.Show("Chỉnh sửa thông tin khách hàng thành công.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
 
             }

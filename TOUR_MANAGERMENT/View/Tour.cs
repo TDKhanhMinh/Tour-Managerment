@@ -82,7 +82,7 @@ namespace TOUR_MANAGERMENT.View
             description = tb_description.Text;
             if (type.IsNullOrEmpty() || tourName.IsNullOrEmpty() || transportation.IsNullOrEmpty() || price.IsNullOrEmpty() || description.IsNullOrEmpty())
             {
-                MessageBox.Show("Hãy điền đầy đủ thông tin Tour");
+                MessageBox.Show("Hãy điền đầy đủ thông tin Tour", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             else
             {
@@ -93,13 +93,13 @@ namespace TOUR_MANAGERMENT.View
                     {
                         TourBLL.addTour(new DTO_Data_Transfer_Object.Tour_DTO(tourName, type, value, transportation, description));
                         Tour_Load(sender, e);
-                        MessageBox.Show("Thêm Tour thành công.");
+                        MessageBox.Show("Thêm Tour thành công.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
 
                 }
                 else
                 {
-                    MessageBox.Show("Giá Tour không hợp lệ!");
+                    MessageBox.Show("Giá Tour không hợp lệ!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
 
             }
@@ -114,7 +114,7 @@ namespace TOUR_MANAGERMENT.View
             decimal value;
             if (!decimal.TryParse(price, out value))
             {
-                MessageBox.Show("Giá Tour không hợp lệ!");
+                MessageBox.Show("Giá Tour không hợp lệ!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             if (MessageBox.Show("Bạn có muốn chỉnh sửa thông tin Tour này không?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
@@ -134,7 +134,7 @@ namespace TOUR_MANAGERMENT.View
 
                 TourBLL.deleteTour(tourId);
                 Tour_Load(sender, e);
-                MessageBox.Show("Xóa khách hàng thành công.");
+                MessageBox.Show("Xóa khách hàng thành công.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
 
         }

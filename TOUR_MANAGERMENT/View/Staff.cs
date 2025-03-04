@@ -112,7 +112,7 @@ namespace TOUR_MANAGERMENT.View
                 fullName.IsNullOrEmpty() ||
                 gender.IsNullOrEmpty())
                 {
-                MessageBox.Show("Hãy điền đầy đủ thông tin nhân viên");
+                MessageBox.Show("Hãy điền đầy đủ thông tin nhân viên", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
             else
                 {
@@ -124,12 +124,12 @@ namespace TOUR_MANAGERMENT.View
                             {
                             UserBLL.addUser(new DTO_Data_Transfer_Object.User_DTO(userName, pwd, role, fullName, gender, phone, age, address));
                             Staff_Load(sender, e);
-                            MessageBox.Show("Thêm nhân viên thành công.");
+                            MessageBox.Show("Thêm nhân viên thành công.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information );
                             }
                         }
                     else
                         {
-                        MessageBox.Show("Số điện thoại khách hàng này đã tồn tại. Vui lòng dùng số điện thoại khác.");
+                        MessageBox.Show("Số điện thoại khách hàng này đã tồn tại. Vui lòng dùng số điện thoại khác.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                         Staff_Load(sender, e);
                         }
                     }
@@ -157,7 +157,7 @@ namespace TOUR_MANAGERMENT.View
                 {
                 UserBLL.deleteUser(userId);
                 Staff_Load(sender, e);
-                MessageBox.Show("Xóa nhân viên thành công.");
+                MessageBox.Show("Xóa nhân viên thành công.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
 
@@ -176,7 +176,7 @@ namespace TOUR_MANAGERMENT.View
                 {
                 UserBLL.updateUser(new DTO_Data_Transfer_Object.User_DTO(userName,pwd,role,fullName,gender,phone,age,address),userId);
                 Staff_Load(sender, e);
-                MessageBox.Show("Chỉnh sửa thông tin nhân viên thành công.");
+                MessageBox.Show("Chỉnh sửa thông tin nhân viên thành công.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
         }

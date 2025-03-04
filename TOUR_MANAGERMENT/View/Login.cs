@@ -38,7 +38,7 @@ namespace TOUR_MANAGERMENT.View
             string password = password_Input.Text;
             if (string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(password))
             {
-                MessageBox.Show("Vui lòng nhập tài khoản và mật khẩu!");
+                MessageBox.Show("Vui lòng nhập tài khoản và mật khẩu!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
             else
@@ -57,7 +57,7 @@ namespace TOUR_MANAGERMENT.View
                     }
                 else
                 {
-                    MessageBox.Show("Sai tài khoản hoặc mật khẩu. Vui lòng thử lại");
+                    MessageBox.Show("Sai tài khoản hoặc mật khẩu. Vui lòng thử lại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
 
             }
