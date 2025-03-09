@@ -27,8 +27,9 @@
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
-            {
+        {
             panel1 = new Panel();
+            button_logout = new Button();
             button_schedule = new Button();
             button_staff = new Button();
             button4 = new Button();
@@ -41,7 +42,6 @@
             iconButton_name = new FontAwesome.Sharp.IconButton();
             label_top = new Label();
             panel_body = new Panel();
-            button_logout = new Button();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel2.SuspendLayout();
@@ -64,6 +64,16 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(220, 668);
             panel1.TabIndex = 0;
+            // 
+            // button_logout
+            // 
+            button_logout.Location = new Point(12, 611);
+            button_logout.Name = "button_logout";
+            button_logout.Size = new Size(188, 45);
+            button_logout.TabIndex = 10;
+            button_logout.Text = "Đăng xuất";
+            button_logout.UseVisualStyleBackColor = true;
+            button_logout.Click += button_logout_Click;
             // 
             // button_schedule
             // 
@@ -100,8 +110,9 @@
             button3.Name = "button3";
             button3.Size = new Size(188, 45);
             button3.TabIndex = 6;
-            button3.Text = "Chức năng 4";
+            button3.Text = "Quản lý Booking";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // button1
             // 
@@ -193,16 +204,6 @@
             panel_body.TabIndex = 2;
             panel_body.Paint += panel3_Paint;
             // 
-            // button_logout
-            // 
-            button_logout.Location = new Point(12, 611);
-            button_logout.Name = "button_logout";
-            button_logout.Size = new Size(188, 45);
-            button_logout.TabIndex = 10;
-            button_logout.Text = "Đăng xuất";
-            button_logout.UseVisualStyleBackColor = true;
-            button_logout.Click += button_logout_Click;
-            // 
             // Home
             // 
             AutoScaleDimensions = new SizeF(9F, 18F);
@@ -221,7 +222,7 @@
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             ResumeLayout(false);
-            }
+        }
 
         #endregion
 

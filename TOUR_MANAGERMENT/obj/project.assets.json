@@ -2168,23 +2168,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\WIN 11\\.nuget\\packages\\": {},
+    "C:\\Users\\admin\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj",
+      "projectUniqueName": "E:\\Study\\2024-2025\\KYII\\Dot_Net\\Mid_Term\\clone\\Tour-Managerment\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj",
       "projectName": "TOUR_MANAGERMENT",
-      "projectPath": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj",
-      "packagesPath": "C:\\Users\\WIN 11\\.nuget\\packages\\",
-      "outputPath": "C:\\Net_Project\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT\\obj\\",
+      "projectPath": "E:\\Study\\2024-2025\\KYII\\Dot_Net\\Mid_Term\\clone\\Tour-Managerment\\TOUR_MANAGERMENT\\TOUR_MANAGERMENT.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "E:\\Study\\2024-2025\\KYII\\Dot_Net\\Mid_Term\\clone\\Tour-Managerment\\TOUR_MANAGERMENT\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\WIN 11\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2211,7 +2211,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0-windows7.0": {
@@ -2257,7 +2257,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
