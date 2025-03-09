@@ -49,5 +49,7 @@ namespace TOUR_MANAGERMENT.BLL_Business_Logic_Layer
             try { TourDAL.deleteTour(tourId); }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
+
+
     }
 }

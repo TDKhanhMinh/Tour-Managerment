@@ -58,5 +58,16 @@ namespace TOUR_MANAGERMENT.BLL_Business_Logic_Layer
             try { CustomerDAL.deleteCustomer(customerId); }
             catch (Exception ex) { MessageBox.Show("Lỗi " + ex.Message); }
             }
+
+        public static DataTable fullName()
+        {
+            try
+            {
+                return CustomerDAL.fullName();
+            }
+            catch (Exception ex) {
+                MessageBox.Show("Lỗi" + ex.Message);
+                return null; }
+        }
     }
 }

@@ -28,7 +28,6 @@ namespace TOUR_MANAGERMENT.View
         private void CustomerManagerment_Load(object sender, EventArgs e)
             {
             dataGridView1.DataSource = CustomerBLL.findAllCustomerData();
-            dataGridView1.Columns["bookingId"].Visible = false;
             dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
 
             dataGridView1.Columns["customerId"].HeaderText = "Mã khách hàng";
