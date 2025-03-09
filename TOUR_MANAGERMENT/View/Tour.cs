@@ -68,7 +68,6 @@ namespace TOUR_MANAGERMENT.View
                     tb_description.Text = "";
                 }
 
-
             }
         }
 
