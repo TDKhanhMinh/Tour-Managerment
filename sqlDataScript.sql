@@ -13,12 +13,23 @@ CREATE TABLE Tour (
   description NVARCHAR(MAX) NOT NULL,
 );
 
+CREATE TABLE Customer (
+  customerId INT IDENTITY(1,1) PRIMARY KEY,
+  lastname NVARCHAR(255) NOT NULL,
+ firstname NVARCHAR(255) NOT NULL,  
+  phone NVARCHAR(20) NOT NULL,
+  email NVARCHAR(255) NOT NULL unique,
+  address NVARCHAR(MAX) NOT NULL,
+);
+
 CREATE TABLE Booking (
   bookingId INT IDENTITY(1,1) PRIMARY KEY,
   date DATE NOT NULL,
-  status INT NOT NULL,
+  status NVARCHAR(20) NOT NULL,
   tourId INT,
-  FOREIGN KEY (tourId) REFERENCES Tour(tourId)
+  customerId INT,
+  FOREIGN KEY (tourId) REFERENCES Tour(tourId),
+  FOREIGN KEY (customerId) REFERENCES Customer(customerId)
 );
 
 CREATE TABLE Report (
@@ -27,7 +38,6 @@ CREATE TABLE Report (
   reportdate DATE NOT NULL,
   description TEXT NOT NULL
 );
-
 CREATE TABLE Users(
 	userId INT IDENTITY(1,1) PRIMARY KEY,
 	username NVARCHAR(255) NOT NULL,
@@ -40,16 +50,6 @@ CREATE TABLE Users(
     address NVARCHAR(255),
 );
 
-CREATE TABLE Customer (
-  customerId INT IDENTITY(1,1) PRIMARY KEY,
-  lastname NVARCHAR(255) NOT NULL,
-  firstname NVARCHAR(255) NOT NULL,  
-  phone NVARCHAR(20) NOT NULL,
-  email NVARCHAR(255) NOT NULL unique,
-  address NVARCHAR(MAX) NOT NULL,
-  bookingId INT ,
-  FOREIGN KEY (bookingId) REFERENCES Booking(bookingId)
-);
 
 CREATE TABLE Schedule (
   scheduleId INT IDENTITY(1,1) PRIMARY KEY,
@@ -75,7 +75,6 @@ VALUES
     ('nv003', 'pass003', 'NV', 'Hoàng Văn E', 27, 'Male', '0934567890', 'Cần Thơ'),
     ('nv004', 'pass004', 'NV', 'Đặng Thị F', 29, 'Female', '0945678901', 'Nha Trang'),
     ('nv005', 'pass005', 'NV', 'Bùi Văn G', 32, 'Male', '0956789012', 'Huế');;
-
 
 
 
@@ -105,4 +104,28 @@ VALUES
 
 INSERT INTO Schedule ( beginday, endday_, transport, location, activity, guidename, status, settlement)  
 VALUES  ( '2025-03-10', '2025-03-11', 'Bus', 'Hà Nội', 'Tham quan Hồ Gươm, phố cổ', 'Nguyễn Văn A', 'Chua khoi hanh', 'Chua thanh toan')
-select * from Users
+select * from Schedule
+
+INSERT INTO Tour (tourname, type, price, transportation, description) VALUES 
+(N'Tour Sapa 3N2Đ', N'Tiết kiệm', 100, N'Xe', N'Tour du lịch khám phá Sapa trong 3 ngày 2 đêm.'),
+(N'Tour Đà Nẵng - Hội An', N'TIết kiệm', 200, N'Máy bay', N'Tour khám phá Đà Nẵng và phố cổ Hội An trong 4 ngày.'),
+(N'Tour Phú Quốc 4N3Đ', N'Tiêu chuẩn', 300, N'Máy bay', N'Tour nghỉ dưỡng tại Phú Quốc với các resort cao cấp.'),
+(N'Tour Hạ Long 2N1Đ', N'Tiêu chuẩn', 400, N'Xe', N'Tour tham quan Vịnh Hạ Long với du thuyền sang trọng.'),
+(N'Tour Đà Lạt 3N2Đ', N'Tiêu chuẩn', 500, N'Xe', N'Tour du lịch Đà Lạt tham quan vườn hoa, đồi chè.'),
+(N'Tour Cần Thơ - Châu Đốc', N'Tiêu chuẩn', 600, N'Xe', N'Tour khám phá miền Tây sông nước, chợ nổi Cái Răng.'),
+(N'Tour Nha Trang 4N3Đ', N'Tiêu chuẩn', 700, N'Máy bay', N'Tour nghỉ dưỡng tại Nha Trang, tham quan Vinpearl Land.'),
+(N'Tour Mộc Châu 2N1Đ', N'Cao cấp', 800, N'Xe', N'Tour khám phá cao nguyên Mộc Châu, đồi chè xanh mướt.'),
+(N'Tour Côn Đảo 3N2Đ', N'Cao cấp', 900, N'Máy bay', N'Tour viếng thăm nghĩa trang Hàng Dương, nhà tù Côn Đảo.'),
+(N'Tour Huế 3N2Đ', N'Cao cấp', 1000, N'Xe', N'Tour tham quan kinh thành Huế, chùa Thiên Mụ, lăng tẩm vua Nguyễn.');
+
+  INSERT INTO Booking (date, status, tourId, customerId) VALUES 
+('2025-03-01', N'Đã cọc', 1, 1),
+('2025-03-02', N'Đã cọc', 2, 2),
+('2025-03-03', N'Đã cọc', 3, 3),
+('2025-03-04', N'Đã cọc', 1, 4),
+('2025-03-05', N'Đã cọc', 2, 5),
+('2025-03-06', N'Đã cọc', 3, 6),
+('2025-03-07', N'Đã cọc', 1, 7),
+('2025-03-08', N'Đã cọc', 2, 8),
+('2025-03-09', N'Đã cọc', 3, 9),
+('2025-03-10', N'Đã cọc', 1, 10);

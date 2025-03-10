@@ -22,12 +22,7 @@ namespace TOUR_MANAGERMENT.View
             InitializeComponent();
         }
 
-        
-
-        
-
-
-
+       
 
         //private void Booking_Load(object sender, EventArgs e)
         //{

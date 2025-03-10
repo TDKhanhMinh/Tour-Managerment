@@ -12,7 +12,8 @@ namespace TOUR_MANAGERMENT.Service
 {
     public class Connenction
     {
-        private static string db = @"MSI";
+        //private static string db = @"MSI";
+        private static string db = @"LAPTOP-TBTLP9L8\MSSQLSERVER05";
 
         private static readonly string baseConnectionString = @$"Data Source={db};Integrated Security=True;Encrypt=False";
         public static SqlConnection GetSqlConnection(string database)

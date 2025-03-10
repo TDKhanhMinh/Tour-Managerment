@@ -21,7 +21,7 @@ namespace TOUR_MANAGERMENT.View
             ApplicationConfiguration.Initialize();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Home());
+            Application.Run(new Report());
             }
         }
     }

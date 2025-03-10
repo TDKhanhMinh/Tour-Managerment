@@ -27,7 +27,7 @@
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
-        {
+            {
             panel1 = new Panel();
             button_logout = new Button();
             button_schedule = new Button();
@@ -101,8 +101,9 @@
             button4.Name = "button4";
             button4.Size = new Size(188, 45);
             button4.TabIndex = 7;
-            button4.Text = "Chức năng 5";
+            button4.Text = "Thống kê";
             button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // button3
             // 
@@ -222,7 +223,7 @@
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             ResumeLayout(false);
-        }
+            }
 
         #endregion
 
